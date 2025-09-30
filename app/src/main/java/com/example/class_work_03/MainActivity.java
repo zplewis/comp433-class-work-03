@@ -1,6 +1,7 @@
 package com.example.class_work_03;
 
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +21,10 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void onClickClearBtn(View view) {
+        MyDrawingArea mda = findViewById(R.id.mydrawingarea_main);
+        mda.resetPath();
     }
 }
