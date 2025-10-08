@@ -12,6 +12,8 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 
+import java.io.ByteArrayOutputStream;
+
 /**
  * From Class Work 02 description:
  * Test your custom view by adding this view to the layout xml file. (Hint: Watch the coding video
@@ -187,4 +189,6 @@ public class MyDrawingArea extends View {
         c.drawPath(path, p); //path is global. The very same thing that onDraw uses.
         return bmp;
     }
+
+
 }

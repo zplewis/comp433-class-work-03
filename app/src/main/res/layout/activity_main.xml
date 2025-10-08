@@ -78,6 +78,7 @@
             android:layout_height="wrap_content"
             android:layout_marginVertical="10dp"
             android:text="Save"
+            android:onClick="onClickSaveBtn"
             />
         
     </LinearLayout>
@@ -106,7 +107,7 @@
             android:layout_width="0dp"
             android:layout_weight="0.5"
             android:layout_height="wrap_content"
-
+            android:onClick="onClickFindBtn"
             android:text="Find"
             />
 
@@ -135,9 +136,10 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="100dp"
-            android:text="Unavailable\nMMM DD, YYYY - HHAMPM"
+            android:text="Unavailable"
             android:textSize="15sp"
             android:layout_marginStart="10dp"
+            android:id="@+id/tv1"
             />
 
     </LinearLayout>
@@ -165,9 +167,10 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="100dp"
-            android:text="Unavailable\nMMM DD, YYYY - HHAMPM"
+            android:text="Unavailable"
             android:textSize="15sp"
             android:layout_marginStart="10dp"
+            android:id="@+id/tv2"
             />
 
     </LinearLayout>
@@ -195,9 +198,10 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="100dp"
-            android:text="Unavailable\nMMM DD, YYYY - HHAMPM"
+            android:text="Unavailable"
             android:textSize="15sp"
             android:layout_marginStart="10dp"
+            android:id="@+id/tv3"
             />
 
     </LinearLayout>
